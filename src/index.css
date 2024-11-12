@@ -1,0 +1,10 @@
+/* Hide scrollbar but still allow scrolling */
+body, html {
+  overflow: hidden; /* Prevents the default scrollbars from showing */
+  overflow-y: scroll; /* Enables vertical scrolling */
+}
+
+body::-webkit-scrollbar, 
+html::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar for WebKit browsers */
+}

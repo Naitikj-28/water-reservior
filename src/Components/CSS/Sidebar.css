@@ -1,0 +1,118 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -25%;
+  width: 15%;
+  height: 100%;
+  margin-top: 3%;
+  background: linear-gradient(to top, #6a9bd1, #9bc4e4);
+  /* Medium gradient background */
+  color: white;
+  padding: 2rem;
+  transition: left 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.dam-box {
+  border: 6px solid rgb(2, 90, 162);
+  padding: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(to bottom, #bcd6f9, #829bc4);
+  /* Unselected gradient */
+  color: black;
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  /* Smooth transition for background change */
+  z-index: 1000;
+}
+
+.dam-box.selected {
+  background: linear-gradient(to bottom, #ffffff, #e0f7ff);
+  /* Selected gradient */
+}
+
+.dam-box h3 {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dam-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.dam-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  white-space: nowrap;
+  /* Prevent text from wrapping to the next line */
+  overflow: hidden;
+  /* Hide any overflow */
+  text-overflow: ellipsis;
+  /* Add ellipsis (...) for overflow text */
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.6rem;
+  background-color: white;
+  position: relative;
+  margin-bottom: 30%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  z-index: 1111;
+}
+
+.footer img {
+  width: 60px;
+  height: auto;
+  margin-right: 8px;
+}
+
+.footer .finner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer h6 {
+  margin: 0;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 13px;
+  color: black;
+  text-align: center;
+}

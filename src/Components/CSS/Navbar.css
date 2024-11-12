@@ -1,0 +1,57 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: steelblue;
+  color: white;
+  padding: 0.5rem 20px;
+  /* Top and bottom padding */
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border: 2px solid white;
+  /* Thinner border */
+  border-radius: 5px;
+  /* Border radius */
+  padding: 5px 10px;
+  /* Padding for button */
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+  flex-grow: 1;
+  /* Allow name to expand to fill available space */
+  margin: 0 20px;
+  /* Add margin to keep it away from toggle and date picker */
+}
+
+.datepicker-container {
+  margin-left: -145px;
+  /* Space between the name and date picker */
+  margin-right: 30px;
+}
+
+.datepicker-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: white;
+  width: 150px;
+  /* Fixed width for the date picker */
+  height: 30px;
+  font-size: 16px;
+}

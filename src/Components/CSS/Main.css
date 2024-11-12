@@ -1,0 +1,85 @@
+.main-container {
+  transition: margin-left 0.3s ease;
+  margin-top: 2%;
+  padding: 20px;
+}
+
+.main-container.with-sidebar {
+  margin-left: 21%;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.dam-title {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.info-card {
+  background: linear-gradient(to top, #d0eafc, #ffffff);
+  /* Light blue to white */
+  border: 5px solid #4287f5;
+  flex: 1;
+  padding: 10px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.data-display {
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-radius: 50px;
+  border: 3px solid #4287f5;
+}
+
+.average-rainfall {
+  font-size: 12px;
+}
+
+.risk-label {
+  font-size: 14px;
+}
+
+.risk-status {
+  padding: 15px;
+  border-radius: 5px;
+  border: 3px solid #4287f5;
+}
+
+.risk-status.Low {
+  background: linear-gradient(to bottom, #8ed6b2, #00b67a);
+}
+
+.risk-status.Moderate {
+  background: linear-gradient(to bottom, #f7cd7f, #e49042);
+}
+
+.risk-status.High {
+  background: linear-gradient(to bottom, #f08080, #ca0813);
+}
+
+
+.height-label {
+  font-size: 10px;
+}
+
+.volume-label {
+  font-size: 10px;
+}
+
+.percentage-label {
+  font-size: 10px;
+}

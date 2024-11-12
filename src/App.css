@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: cursive;
+  font-weight: 300;
+  font-style: normal;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 800;
+  color: #222;
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
