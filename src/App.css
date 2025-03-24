@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 300;
   font-style: normal;
   color: #333;
@@ -15,11 +15,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Sofadi One", system-ui;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 800;
   color: #222;
 }
 
 p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
